@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body class="page">
     <header class="header">
       <img
-        src="./images/logo_place_header.svg"
-        alt="логотип"
+        src="images/logo_place_header.svg"
+        alt="Header Logotype"
         class="logo logo_place_header"
       >
       <h1 class="header__title">Научиться учиться</h1>
@@ -22,8 +22,8 @@
         <a href="" class="header__link">Узнать &rarr;</a>
       </p>
       <img
-        src="./images/header-image.png"
-        alt="Картинка"
+        src="images/header-image.png"
+        alt="Header Picture"
         class="header__main-illustration"
       >
       <div class="header__square-pic"></div>
@@ -31,21 +31,21 @@
 
   <main class="content">
     <section class="description">
-      <div class="two-colums">
-        <h2 class="two-colums two-columns__brief">Главные проблемы в обучении</h2>
-        <div class="two-colums two-columns__main-text">
-          <p class="two-colums two-columns__paragraph">
+      <div class="two-columns">
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
             Ни в школе, ни в институте нас не учат тому, как правильно изучать
             материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся
             решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге
             это не дает нам реального знания. Зубрежка быстро выветривается и не
             приносит пользы.
           </p>
-          <p class="two-colums two-columns__paragraph">
-            <span class="two-colums two-colums__span-accent">Вывод:</span> учиться тоже
+          <p class="two-columns__paragraph">
+            <span class="two-columns__span-accent">Вывод:</span> учиться тоже
             нужно уметь, но почему-то этому мало где учат. Что с этим делать?
           </p>
-          <p class="two-colums two-columns__paragraph">
+          <p class="two-columns__paragraph">
             Конкретные техники и упражнения помогают изменить подход к обучению,
             сделать его эффективным и захватывающим. Эти же техники применяются
             на примере обучения в Практикуме.
@@ -96,20 +96,20 @@
     </section>
 
     <section class="feynman">
-      <h2 class="feynman feynman__title">Метод Фейнмана</h2>
-      <p class="feynman feynman__subtitle">Выучить и не забыть.</p>
-      <a href="#" class="feynman feynman__link">Подробнее &rarr;</a>
+      <h2 class="feynman__title">Метод Фейнмана</h2>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
+      <a href="#" class="feynman__link">Подробнее &rarr;</a>
       <img
-        src="./images/feynman.png"
-        alt="Портрет Фейнмана"
-        class="feynman feynman__main-illustration"
+        src="images/feynman.png"
+        alt="Feyman's portrait"
+        class="feynman__main-illustration"
       >
     </section>
 
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
       <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-      <ul class="table table_theme_dark">
+      <ul class="table kaufman__table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">1</h3>
           <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -152,59 +152,64 @@
         </li>
       </ul>
       <img
-        src="./images/kaufman-triangle.svg"
+        src="images/kaufman-triangle.svg"
         alt="Геометрическая фигура"
-        class="kaufman kaufman__triangle"
+        class="kaufman__triangle"
       >
     </section>
   </main>
     <footer class="footer">
-      <div class="footer footer__columns">
-        <div class="footer footer__column footer__column_content_copyright">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
           <img
-            src="./images/logo_place_footer.svg"
-            alt="логотип"
-            class="logo logo_place_footer"
-          >
-          <p class="footer footer__author">&copy Слава Самойлов</p>
+            src="images/logo_place_footer.svg"
+            alt="Footer Logotype"
+            class="logo logo_place_footer"/>
+          <p class="footer__author">&copy Слава Самойлов</p>
         </div>
-        <div class="footer footer__column footer__column_content_info">
-          <h3 class="footer footer__column-heading">О Практикуме</h3>
-          <ul class="footer footer__column-links">
-            <li class="footer footer__column-link">Главная</li>
-            <li class="footer footer__column-link">Концепция</li>
-            <li class="footer footer__column-link">Наставники</li>
+        <div class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <ul class="footer__column-links">
+            <li class="footer__column-link">
+              <a href="#">Главная</a>
+            </li>
+            <li class="footer__column-link">
+              <a href="#">Концепция</a>
+            </li>
+            <li class="footer__column-link">
+              <a href="#">Наставники</a>
+            </li>
           </ul>
         </div>
-        <div class="footer footer__column footer__column_content_social">
-          <h3 class="footer footer__column-heading">Соцсети</h3>
-          <ul class="footer footer__column-links">
-            <li class="footer footer__column-link">
-              <a href="#"
-                ><img
-                  src="./images/youtube-icon.svg"
-                  alt="иконка youtube"
-                  class="footer footer__social-icon"
-                >youtube</a
-              >
+        <div class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <ul class="footer__column-links">
+            <li class="footer__column-link">
+              <a href="#">
+                <img
+                  src="images/youtube-icon.svg"
+                  alt="YouTube Icon"
+                  class="footer__social-icon"/>
+                YouTube
+              </a>
             </li>
-            <li class="footer footer__column-link">
-              <a href="#"
-                ><img
-                  src="./images/vk_color_white.svg"
-                  alt="иконка ВК"
-                  class="footer footer__social-icon"
-                >ВКонтакте</a
-              >
+            <li class="footer__column-link">
+              <a href="#">
+                <img
+                  src="images/vk_color_white.svg"
+                  alt="VK Icon"
+                  class="footer__social-icon"/>
+                ВКонтакте
+              </a>
             </li>
-            <li class="footer footer__column-link">
-              <a href="#"
-                ><img
-                  src="./images/tiktok-icon.svg"
-                  alt="иконка TikTok"
-                  class="footer footer__social-icon"
-                >TikTok</a
-              >
+            <li class="footer__column-link">
+              <a href="#">
+                <img
+                  src="images/tiktok-icon.svg"
+                  alt="TikTok Icon"
+                  class="footer__social-icon"/>
+                TikTok
+              </a>
             </li>
           </ul>
         </div>
